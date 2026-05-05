@@ -5,6 +5,12 @@
 
 ## Usage
 
+### Run directly from GitHub
+
+```bash
+npx github:joshua-beatty-neighbor/dynamodb-admin#joshua-beatty/release
+```
+
 ### Use as globally installed app
 
 ```bash

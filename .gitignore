@@ -4,4 +4,3 @@ yarn.lock
 .idea/
 .vscode/
 .npmrc
-dist/
