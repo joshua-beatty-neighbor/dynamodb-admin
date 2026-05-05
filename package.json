@@ -19,7 +19,7 @@
     "lint": "eslint .",
     "fix": "eslint --fix .",
     "test": "vitest run",
-    "prepare": "npm run build",
+    "prepare": "rollup --version >/dev/null 2>&1 && npm run build || true",
     "preversion": "npm run build",
     "postversion": "git push --follow-tags"
   },
